@@ -1,0 +1,26 @@
+{
+  "name": "drakolis-logger",
+  "version": "1.0.0",
+  "description": "My own wrapper around Winston which I use in several projects already",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "winston",
+    "logger"
+  ],
+  "author": "Mika Drakolis",
+  "license": "ISC",
+  "dependencies": {
+    "cli-highlight": "^2.1.1",
+    "strip-ansi": "^5.2.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
